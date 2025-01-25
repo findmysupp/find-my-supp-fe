@@ -1,0 +1,91 @@
+/* General container styling */
+.container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Banner section */
+.banner {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Section styling */
+.section {
+    margin: 40px 0;
+    max-width: 800px;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #007bff;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0 0;
+    line-height: 1.6;
+}
+
+.section ul {
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.section li {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+/* Footer styling */
+.footer {
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.socialIcons {
+    margin-top: 10px;
+}
+
+.socialIcons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.socialIcons a:hover {
+    color: #0056b3;
+}
